@@ -19,7 +19,7 @@ namespace gaminglist.Pages.Games
             _context = context;
         }
 
-        public Game Movie { get; set; }
+        public Game game { get; set; }
 
         public async Task<IActionResult> OnGetAsync(int? id)
         {
@@ -28,9 +28,9 @@ namespace gaminglist.Pages.Games
                 return NotFound();
             }
 
-            Movie = await _context.Game.FirstOrDefaultAsync(m => m.ID == id);
+            game = await _context.Game.FirstOrDefaultAsync(m => m.ID == id);
 
-            if (Movie == null)
+            if (game == null)
             {
                 return NotFound();
             }
