@@ -24,6 +24,7 @@
             </th>
             <th>
                 @Html.DisplayNameFor(model => model.Game[0].Image)
+                
             </th>
             <th></th>
         </tr>
@@ -41,7 +42,9 @@
                 @Html.DisplayFor(modelItem => item.Rating)
             </td>
             <td>
-                @Html.DisplayFor(modelItem => item.Image)
+
+               <img src ="@Html.DisplayFor(modelItem => item.Image)"/>
+               
             </td>
             <td>
                 <a asp-page="./Edit" asp-route-id="@item.ID">Edit</a> |

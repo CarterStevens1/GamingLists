@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 using Microsoft.EntityFrameworkCore;
-using RazorPagesMovie.Models;
+using gaminglist.Pages.Games;
 
 namespace gaminglist.Data
 {
@@ -14,6 +14,6 @@ namespace gaminglist.Data
         {
         }
 
-        public DbSet<RazorPagesMovie.Models.Game> Game { get; set; }
+        public DbSet<gaminglist.Pages.Games.Game> Game { get; set; }
     }
 }

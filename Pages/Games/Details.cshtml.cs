@@ -5,7 +5,7 @@ using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.RazorPages;
 using Microsoft.EntityFrameworkCore;
-using RazorPagesMovie.Models;
+using gaminglist.Pages.Games;
 using gaminglist.Data;
 
 namespace gaminglist.Pages.Games

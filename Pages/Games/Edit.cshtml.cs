@@ -6,7 +6,7 @@ using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.RazorPages;
 using Microsoft.AspNetCore.Mvc.Rendering;
 using Microsoft.EntityFrameworkCore;
-using RazorPagesMovie.Models;
+using gaminglist.Pages.Games;
 using gaminglist.Data;
 
 namespace gaminglist.Pages.Games
